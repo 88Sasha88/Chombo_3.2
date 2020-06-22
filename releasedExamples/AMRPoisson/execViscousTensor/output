@@ -1,0 +1,19 @@
+no slip bcs lo for direction 0
+no slip bcs hi for direction 0
+no slip bcs lo for direction 1
+no slip bcs hi for direction 1
+no slip bcs lo for direction 2
+no slip bcs hi for direction 2
+    AMRMultiGrid:: iteration = 0, residual norm = 2.986298e+00
+    AMRMultiGrid:: iteration = 1, residual norm = 1.936600e-01, rate = 1.542031e+01
+    AMRMultiGrid:: iteration = 2, residual norm = 1.933429e-02, rate = 1.001641e+01
+    AMRMultiGrid:: iteration = 3, residual norm = 2.777171e-03, rate = 6.961862e+00
+    AMRMultiGrid:: iteration = 4, residual norm = 2.445464e-04, rate = 1.135642e+01
+    AMRMultiGrid:: iteration = 5, residual norm = 3.114337e-05, rate = 7.852277e+00
+    AMRMultiGrid:: iteration = 6, residual norm = 2.897766e-06, rate = 1.074737e+01
+    AMRMultiGrid:: iteration = 7, residual norm = 3.655797e-07, rate = 7.926495e+00
+    AMRMultiGrid:: iteration = 8, residual norm = 3.430642e-08, rate = 1.065631e+01
+    AMRMultiGrid:: iteration = 9, residual norm = 4.290265e-09, rate = 7.996340e+00
+    AMRMultiGrid:: iteration = 10, residual norm = 4.081091e-10, rate = 1.051255e+01
+    AMRMultiGrid:: iteration = 10, residual norm = 4.081091e-10
+peak memory usage: 112997211 bytes (107 Mb)

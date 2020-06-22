@@ -1,0 +1,17 @@
+setupGrids: 1) size 31
+setupGrids: 2) size 91
+about to go into solve
+    AMRMultiGrid:: iteration = 0, residual norm = 2.986298e+00
+    AMRMultiGrid:: iteration = 1, residual norm = 2.719208e+00, rate = 1.098224e+00
+    AMRMultiGrid:: iteration = 2, residual norm = 1.292961e-01, rate = 2.103086e+01
+    AMRMultiGrid:: iteration = 3, residual norm = 8.180356e-03, rate = 1.580568e+01
+    AMRMultiGrid:: iteration = 4, residual norm = 5.152985e-04, rate = 1.587498e+01
+    AMRMultiGrid:: iteration = 5, residual norm = 3.477494e-05, rate = 1.481810e+01
+    AMRMultiGrid:: iteration = 6, residual norm = 2.627334e-06, rate = 1.323583e+01
+    AMRMultiGrid:: iteration = 7, residual norm = 2.054041e-07, rate = 1.279105e+01
+    AMRMultiGrid:: iteration = 8, residual norm = 1.554688e-08, rate = 1.321191e+01
+    AMRMultiGrid:: iteration = 9, residual norm = 1.196427e-09, rate = 1.299443e+01
+    AMRMultiGrid:: iteration = 9, residual norm = 1.196427e-09
+done solve
+Write Plots. norm=1.196427e-09
+peak memory usage: 25155407 bytes (23 Mb)
