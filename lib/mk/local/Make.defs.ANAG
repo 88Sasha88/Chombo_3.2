@@ -113,9 +113,9 @@ ifneq ($(USE_HDF),FALSE)
     endif
 
     HDFINCFLAGS=-I$(_hdf_root)/include 
-    HDFLIBFLAGS=-L$(_hdf_root)/lib -lhdf5_hl -lhdf5 -lz 
+    HDFLIBFLAGS=-L$(_hdf_root)/lib -lhdf5_hl -lhdf5 -lz -ldl
     HDFMPIINCFLAGS=-I$(_hdf_root)/include 
-    HDFMPILIBFLAGS=-L$(_hdf_root)/lib -lhdf5_hl -lhdf5 -lz 
+    HDFMPILIBFLAGS=-L$(_hdf_root)/lib -lhdf5_hl -lhdf5 -lz -ldl
   else
     $(error No HDF5 module is loaded.)
   endif

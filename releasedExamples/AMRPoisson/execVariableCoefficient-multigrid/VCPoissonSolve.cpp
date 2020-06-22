@@ -141,44 +141,66 @@ int poissonSolve(Vector<LevelData<FArrayBox>* >& a_phi,
    }
 
   // set up solver
-  RefCountedPtr<AMRLevelOpFactory<LevelData<FArrayBox> > > opFactory
-    = RefCountedPtr<AMRLevelOpFactory<LevelData<FArrayBox> > >
-        (defineOperatorFactory(a_grids, vectDomains, aCoef, bCoef, a_params));
+  AMRLevelOpFactory<LevelData<FArrayBox> >* opFactoryPtr = defineOperatorFactory(a_grids,
+                                                                                 vectDomains,
+                                                                                 aCoef, bCoef,
+                                                                                 a_params);
 
   int lBase = 0;
   MultilevelLinearOp<FArrayBox> mlOp;
   int numMGIter = 1;
   pp.query("numMGIterations", numMGIter);
 
-  mlOp.m_num_mg_iterations = numMGIter;
   int numMGSmooth = 4;
   pp.query("numMGsmooth", numMGSmooth);
-  mlOp.m_num_mg_smooth = numMGSmooth;
+
   int preCondSolverDepth = -1;
   pp.query("preCondSolverDepth", preCondSolverDepth);
-  mlOp.m_preCondSolverDepth = preCondSolverDepth;
 
   Real tolerance = 1.0e-7;
   pp.query("tolerance", tolerance);
 
+  Real hang_tolerance = 1.0e-7;
+  pp.query("hang", hang_tolerance);
+  
   int max_iter = 10;
   pp.query("max_iterations", max_iter);
 
-  mlOp.define(a_grids, a_params.refRatio, vectDomains,
-              vectDx, opFactory, lBase);
 
-  BiCGStabSolver<Vector<LevelData<FArrayBox>* > > solver;
+  // 1 for vcycle, 2 for wcycle
+  int numMG = 1;
+  pp.query("numMG", numMG);
+  
+  AMRMultiGrid<LevelData<FArrayBox> > *amrSolver;
+  amrSolver = new AMRMultiGrid<LevelData<FArrayBox> >();  
+  
+  BiCGStabSolver<LevelData<FArrayBox> > bottomSolver;
+  bottomSolver.m_verbosity = a_params.verbosity-2;
 
-  bool homogeneousBC = false;
-  solver.define(&mlOp, homogeneousBC);
-  solver.m_verbosity = a_params.verbosity;
-  solver.m_normType = 0;
-  solver.m_eps = tolerance;
-  solver.m_imax = max_iter;
+  //  setupSolver(amrSolver, bottomSolver, opFactory, a_grids, vectDomains,
+  //           a_params.refRatio, vectDx, finestLevel);
+  
 
-  solver.solve(a_phi, a_rhs);
+  amrSolver->define(vectDomains[0], *opFactoryPtr, &bottomSolver, nlevels);
+  
 
-  int exitStatus = solver.m_exitStatus;
+  Real normThresh = 1.0e-30;
+  amrSolver->setSolverParameters(numMGSmooth, numMGSmooth, numMGSmooth,
+                                 numMG, numMGIter, tolerance, hang_tolerance,
+                                 normThresh);
+  amrSolver->m_verbosity = a_params.verbosity;
+  
+
+  int finestLevel = nlevels -1;
+  bool zeroInitialGuess = true;
+  
+  amrSolver->solve(a_phi, a_rhs, finestLevel, lBase, zeroInitialGuess);
+
+  
+  int exitStatus = amrSolver->m_exitStatus;
+
+  delete amrSolver;
+    
   // note that for AMRMultiGrid, success = 1.
   exitStatus -= 1;
   return exitStatus;
