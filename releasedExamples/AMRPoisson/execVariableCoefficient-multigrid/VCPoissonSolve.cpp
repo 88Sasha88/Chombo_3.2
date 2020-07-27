@@ -186,7 +186,7 @@ int poissonSolve(Vector<LevelData<FArrayBox>* >& a_phi,
 
   Real normThresh = 1.0e-30;
   amrSolver->setSolverParameters(numMGSmooth, numMGSmooth, numMGSmooth,
-                                 numMG, numMGIter, tolerance, hang_tolerance,
+                                 numMG, max_iter, tolerance, hang_tolerance,
                                  normThresh);
   amrSolver->m_verbosity = a_params.verbosity;
   
