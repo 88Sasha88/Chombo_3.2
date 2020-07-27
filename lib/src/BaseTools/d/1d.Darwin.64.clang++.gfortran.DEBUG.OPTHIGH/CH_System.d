@@ -1,0 +1,5 @@
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(CH_System.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/CH_System.d : CH_config.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(CH_System.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/CH_System.d : CH_System.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(CH_System.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/CH_System.d : BaseNamespaceHeader.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(CH_System.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/CH_System.d : CH_System.cpp
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(CH_System.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/CH_System.d : BaseNamespaceFooter.H

@@ -1,0 +1,96 @@
+tagging on gradient of RHS
+trig diri bcs lo for direction 0
+trig diri bcs hi for direction 0
+trig diri bcs lo for direction 1
+trig diri bcs hi for direction 1
+    AMRMultiGrid:: iteration = 0, residual norm = 6.688298e+03
+norm[0] = 3.395934e+01 initial_norm = 6.688298e+03 initial_rnorm = 4.340016e+03
+      BiCGStab::     iteration = 1, error norm = 3.391836e+01, rate = 1.279548e+02
+norm[0] = 2.369191e+00 initial_norm = 6.688298e+03 initial_rnorm = 4.340016e+03
+      BiCGStab::     iteration = 2, error norm = 2.357352e-01, rate = 1.438833e+02
+norm[0] = 1.321399e-03 initial_norm = 6.688298e+03 initial_rnorm = 4.340016e+03
+      BiCGStab::     iteration = 3, error norm = 1.319710e-03, rate = 1.786265e+02
+norm[0] = 7.001281e-04 initial_norm = 6.688298e+03 initial_rnorm = 4.340016e+03
+      BiCGStab::     iteration = 4, error norm = 7.456160e-06, rate = 1.769959e+02
+norm[0] = 3.199277e-12 initial_norm = 6.688298e+03 initial_rnorm = 4.340016e+03
+      BiCGStab::     iteration = 5, error norm = 3.199277e-12, rate = 2.330577e+06
+      BiCGStab:: 5 iterations, final Residual norm = 3.199277e-12
+    AMRMultiGrid:: iteration = 1, residual norm = 3.678765e+02, rate = 1.818083e+01
+norm[0] = 1.201047e+02 initial_norm = 6.688298e+03 initial_rnorm = 1.534661e+04
+      BiCGStab::     iteration = 1, error norm = 1.199598e+02, rate = 1.279313e+02
+norm[0] = 8.378987e+00 initial_norm = 6.688298e+03 initial_rnorm = 1.534661e+04
+      BiCGStab::     iteration = 2, error norm = 8.337179e-01, rate = 1.438853e+02
+norm[0] = 2.503599e-03 initial_norm = 6.688298e+03 initial_rnorm = 1.534661e+04
+      BiCGStab::     iteration = 3, error norm = 2.445631e-03, rate = 3.409009e+02
+norm[0] = 2.368378e-03 initial_norm = 6.688298e+03 initial_rnorm = 1.534661e+04
+      BiCGStab::     iteration = 4, error norm = 4.203165e-05, rate = 5.818547e+01
+norm[0] = 4.353936e-14 initial_norm = 6.688298e+03 initial_rnorm = 1.534661e+04
+      BiCGStab::     iteration = 5, error norm = 4.353936e-14, rate = 9.653713e+08
+      BiCGStab:: 5 iterations, final Residual norm = 4.353936e-14
+    AMRMultiGrid:: iteration = 2, residual norm = 1.452091e+03, rate = 2.533426e-01
+norm[0] = 4.570601e+02 initial_norm = 6.688298e+03 initial_rnorm = 5.840161e+04
+      BiCGStab::     iteration = 1, error norm = 4.565085e+02, rate = 1.279311e+02
+norm[0] = 3.188633e+01 initial_norm = 6.688298e+03 initial_rnorm = 5.840161e+04
+      BiCGStab::     iteration = 2, error norm = 3.172723e+00, rate = 1.438854e+02
+norm[0] = 1.942483e-02 initial_norm = 6.688298e+03 initial_rnorm = 5.840161e+04
+      BiCGStab::     iteration = 3, error norm = 1.939907e-02, rate = 1.635502e+02
+norm[0] = 9.422227e-03 initial_norm = 6.688298e+03 initial_rnorm = 5.840161e+04
+      BiCGStab::     iteration = 4, error norm = 1.003535e-04, rate = 1.933074e+02
+norm[0] = 2.839497e-11 initial_norm = 6.688298e+03 initial_rnorm = 5.840161e+04
+      BiCGStab::     iteration = 5, error norm = 2.839497e-11, rate = 3.534200e+06
+      BiCGStab:: 5 iterations, final Residual norm = 2.839497e-11
+    AMRMultiGrid:: iteration = 3, residual norm = 5.538337e+03, rate = 2.621890e-01
+norm[0] = 1.741380e+03 initial_norm = 6.688298e+03 initial_rnorm = 2.225077e+05
+      BiCGStab::     iteration = 1, error norm = 1.739278e+03, rate = 1.279310e+02
+norm[0] = 1.214856e+02 initial_norm = 6.688298e+03 initial_rnorm = 2.225077e+05
+      BiCGStab::     iteration = 2, error norm = 1.208794e+01, rate = 1.438854e+02
+norm[0] = 3.777807e-02 initial_norm = 6.688298e+03 initial_rnorm = 2.225077e+05
+      BiCGStab::     iteration = 3, error norm = 3.742945e-02, rate = 3.229527e+02
+norm[0] = 3.533109e-02 initial_norm = 6.688298e+03 initial_rnorm = 2.225077e+05
+      BiCGStab::     iteration = 4, error norm = 4.208173e-04, rate = 8.894465e+01
+norm[0] = 1.680381e-12 initial_norm = 6.688298e+03 initial_rnorm = 2.225077e+05
+      BiCGStab::     iteration = 5, error norm = 1.680381e-12, rate = 2.504297e+08
+      BiCGStab:: 5 iterations, final Residual norm = 1.680381e-12
+    AMRMultiGrid:: iteration = 4, residual norm = 2.110203e+04, rate = 2.624551e-01
+norm[0] = 6.634777e+03 initial_norm = 6.688298e+03 initial_rnorm = 8.477696e+05
+      BiCGStab::     iteration = 1, error norm = 6.626770e+03, rate = 1.279310e+02
+norm[0] = 4.628684e+02 initial_norm = 6.688298e+03 initial_rnorm = 8.477696e+05
+      BiCGStab::     iteration = 2, error norm = 4.605589e+01, rate = 1.438854e+02
+norm[0] = 1.374835e-01 initial_norm = 6.688298e+03 initial_rnorm = 8.477696e+05
+      BiCGStab::     iteration = 3, error norm = 1.295610e-01, rate = 3.554765e+02
+norm[0] = 1.217538e-01 initial_norm = 6.688298e+03 initial_rnorm = 8.477696e+05
+      BiCGStab::     iteration = 4, error norm = 4.766548e-03, rate = 2.718131e+01
+norm[0] = 5.317005e-13 initial_norm = 6.688298e+03 initial_rnorm = 8.477696e+05
+      BiCGStab::     iteration = 5, error norm = 5.317005e-13, rate = 8.964724e+09
+      BiCGStab:: 5 iterations, final Residual norm = 5.317005e-13
+    AMRMultiGrid:: iteration = 5, residual norm = 8.040032e+04, rate = 2.624621e-01
+    AMRMultiGrid:: iteration = 5, residual norm = 8.040032e+04
+    AMRMultiGrid:: WARNING: Exit because of solver hang
+    AMRMultiGrid:: exitStatus = 4
+Vector 11LayoutIndex: 120 bytes (0 Mb)
+Vector 13ProblemDomain: 192 bytes (0 Mb)
+Vector 13RefCountedPtrI9LevelDataI7FluxBoxE16RCPPointerPolicyE: 48 bytes (0 Mb)
+Vector 13RefCountedPtrI9LevelDataI9FArrayBoxE16RCPPointerPolicyE: 48 bytes (0 Mb)
+Vector 17DisjointBoxLayout: 552 bytes (0 Mb)
+Vector 5Entry: 120 bytes (0 Mb)
+Vector 6Copier: 1656 bytes (0 Mb)
+Vector 6VectorINSt3__14pairIi11LayoutIndexEEE: 160 bytes (0 Mb)
+Vector 8CFRegion: 1872 bytes (0 Mb)
+Vector P5CFIVS: 160 bytes (0 Mb)
+Vector P7FluxBox: 40 bytes (0 Mb)
+Vector P9FArrayBox: 120 bytes (0 Mb)
+Vector d: 24 bytes (0 Mb)
+Vector i: 12 bytes (0 Mb)
+Arena d: 65792 bytes (0 Mb)
+Arena 9LevelDataI7FluxBoxE: 2760 bytes (0 Mb)
+Arena 9LevelDataI9FArrayBoxE: 2760 bytes (0 Mb)
+Arena 12DataIterator: 432 bytes (0 Mb)
+Arena b: 378 bytes (0 Mb)
+Arena i: 252 bytes (0 Mb)
+Arena 6VectorI5EntryE: 840 bytes (0 Mb)
+Arena 6VectorIS_INSt3__14pairIi11LayoutIndexEEEE: 120 bytes (0 Mb)
+Arena 6VectorI11LayoutIndexE: 1760 bytes (0 Mb)
+ BitSet allocation 56 bytes (0 Mb)
+---------------------------------
+Total Unfreed : 80274 bytes (0 Mb)
+peak memory usage: 468543 bytes (0 Mb)

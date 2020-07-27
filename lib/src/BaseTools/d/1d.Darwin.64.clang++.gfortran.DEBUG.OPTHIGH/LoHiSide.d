@@ -1,0 +1,6 @@
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(LoHiSide.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/LoHiSide.d : BaseNamespaceFooter.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(LoHiSide.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/LoHiSide.d : LoHiSide.cpp
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(LoHiSide.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/LoHiSide.d : BaseNamespaceHeader.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(LoHiSide.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/LoHiSide.d : CH_assert.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(LoHiSide.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/LoHiSide.d : MayDay.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(LoHiSide.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/LoHiSide.d : LoHiSide.H

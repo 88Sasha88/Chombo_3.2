@@ -11,18 +11,18 @@
 #include <iostream>
 #include <fstream>
 
-#include "LevelData.H"
-#include "FArrayBox.H"
+#include "LevelData.H" // inside BoxTools
+#include "FArrayBox.H" // inside BoxTools
 #include "ParmParse.H"
 #include "Vector.H"
 #include "AMRIO.H"
-#include "BRMeshRefine.H"
+#include "BRMeshRefine.H" // inside BoxTools
 #include "LoadBalance.H"
 #include "ProblemDomain.H"
-#include "BCFunc.H"
-#include "AMRPoissonOp.H"
-#include "AMRMultiGrid.H"
-#include "BiCGStabSolver.H"
+#include "BCFunc.H" // inside AMRElliptic
+#include "AMRPoissonOp.H" // inside AMRElliptic
+#include "AMRMultiGrid.H" // inside AMRElliptic
+#include "BiCGStabSolver.H" // inside AMRElliptic
 #include "BoxIterator.H"
 #include "CONSTANTS.H"
 #include "memusage.H"

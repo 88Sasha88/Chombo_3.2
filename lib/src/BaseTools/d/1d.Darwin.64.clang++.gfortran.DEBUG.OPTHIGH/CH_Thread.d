@@ -1,0 +1,4 @@
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(CH_Thread.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/CH_Thread.d : NamespaceFooter.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(CH_Thread.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/CH_Thread.d : CH_Thread.cpp
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(CH_Thread.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/CH_Thread.d : NamespaceHeader.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(CH_Thread.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/CH_Thread.d : CH_Thread.H

@@ -1,0 +1,11 @@
+CXX          = clang++
+MPICXX        = mpic++ 
+FC            = /usr/local/bin/gfortran
+flibflags   += -L/usr/local/gfortran/lib
+USE_HDF       = TRUE
+HDF5_DIR       = /usr/local
+HDFINCFLAGS   = -I${HDF5_DIR}/include 
+HDFLIBFLAGS   = -L${HDF5_DIR}/lib -lhdf5 -lhdf5_hl -lz
+HDFMPIINCFLAGS   = -I${HDF5_DIR}/include 
+HDFMPILIBFLAGS   = -L${HDF5_DIR}/lib -lhdf5 -lhdf5_hl -lz
+syslibflags = -framework Accelerate

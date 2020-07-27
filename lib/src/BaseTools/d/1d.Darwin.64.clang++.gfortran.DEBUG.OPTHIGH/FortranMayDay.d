@@ -1,0 +1,6 @@
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(FortranMayDay.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/FortranMayDay.d : BaseNamespaceFooter.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(FortranMayDay.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/FortranMayDay.d : FortranNameMacro.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(FortranMayDay.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/FortranMayDay.d : CHOMBO_VERSION.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(FortranMayDay.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/FortranMayDay.d : BaseNamespaceHeader.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(FortranMayDay.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/FortranMayDay.d : FortranMayDay.cpp
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(FortranMayDay.o) d/1d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/FortranMayDay.d : MayDay.H

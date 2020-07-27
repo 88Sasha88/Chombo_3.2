@@ -1,19 +1,17 @@
 no slip bcs lo for direction 0
 no slip bcs hi for direction 0
-no slip bcs lo for direction 1
-no slip bcs hi for direction 1
-no slip bcs lo for direction 2
-no slip bcs hi for direction 2
-    AMRMultiGrid:: iteration = 0, residual norm = 2.986298e+00
-    AMRMultiGrid:: iteration = 1, residual norm = 1.936600e-01, rate = 1.542031e+01
-    AMRMultiGrid:: iteration = 2, residual norm = 1.933429e-02, rate = 1.001641e+01
-    AMRMultiGrid:: iteration = 3, residual norm = 2.777171e-03, rate = 6.961862e+00
-    AMRMultiGrid:: iteration = 4, residual norm = 2.445464e-04, rate = 1.135642e+01
-    AMRMultiGrid:: iteration = 5, residual norm = 3.114337e-05, rate = 7.852277e+00
-    AMRMultiGrid:: iteration = 6, residual norm = 2.897766e-06, rate = 1.074737e+01
-    AMRMultiGrid:: iteration = 7, residual norm = 3.655797e-07, rate = 7.926495e+00
-    AMRMultiGrid:: iteration = 8, residual norm = 3.430642e-08, rate = 1.065631e+01
-    AMRMultiGrid:: iteration = 9, residual norm = 4.290265e-09, rate = 7.996340e+00
-    AMRMultiGrid:: iteration = 10, residual norm = 4.081091e-10, rate = 1.051255e+01
-    AMRMultiGrid:: iteration = 10, residual norm = 4.081091e-10
-peak memory usage: 112997211 bytes (107 Mb)
+    AMRMultiGrid:: iteration = 0, residual norm = 3.001698e+00
+    AMRMultiGrid:: iteration = 1, residual norm = 5.240700e-01, rate = 5.727666e+00
+    AMRMultiGrid:: iteration = 2, residual norm = 9.791659e-02, rate = 5.352209e+00
+    AMRMultiGrid:: iteration = 3, residual norm = 9.580285e-03, rate = 1.022063e+01
+    AMRMultiGrid:: iteration = 4, residual norm = 2.167509e-03, rate = 4.419952e+00
+    AMRMultiGrid:: iteration = 5, residual norm = 2.278213e-04, rate = 9.514075e+00
+    AMRMultiGrid:: iteration = 6, residual norm = 4.966957e-05, rate = 4.586738e+00
+    AMRMultiGrid:: iteration = 7, residual norm = 6.024099e-06, rate = 8.245146e+00
+    AMRMultiGrid:: iteration = 8, residual norm = 1.154768e-06, rate = 5.216720e+00
+    AMRMultiGrid:: iteration = 9, residual norm = 1.600977e-07, rate = 7.212893e+00
+    AMRMultiGrid:: iteration = 10, residual norm = 2.642858e-08, rate = 6.057750e+00
+    AMRMultiGrid:: iteration = 11, residual norm = 4.184727e-09, rate = 6.315484e+00
+    AMRMultiGrid:: iteration = 12, residual norm = 5.991054e-10, rate = 6.984959e+00
+    AMRMultiGrid:: iteration = 12, residual norm = 5.991054e-10
+peak memory usage: 190219 bytes (0 Mb)

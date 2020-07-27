@@ -1,0 +1,4 @@
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools2d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(Callbacks.o) d/2d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/Callbacks.d : Callbacks.cpp
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools2d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(Callbacks.o) d/2d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/Callbacks.d : BaseNamespaceFooter.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools2d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(Callbacks.o) d/2d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/Callbacks.d : BaseNamespaceHeader.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools2d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(Callbacks.o) d/2d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/Callbacks.d : Callbacks.H

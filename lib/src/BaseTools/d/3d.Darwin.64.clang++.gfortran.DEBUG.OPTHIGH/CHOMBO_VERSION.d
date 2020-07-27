@@ -1,0 +1,4 @@
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools3d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(CHOMBO_VERSION.o) d/3d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/CHOMBO_VERSION.d : CHOMBO_VERSION.cpp
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools3d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(CHOMBO_VERSION.o) d/3d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/CHOMBO_VERSION.d : CHOMBO_VERSION.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools3d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(CHOMBO_VERSION.o) d/3d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/CHOMBO_VERSION.d : BaseNamespaceFooter.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools3d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH.a(CHOMBO_VERSION.o) d/3d.Darwin.64.clang++.gfortran.DEBUG.OPTHIGH/CHOMBO_VERSION.d : BaseNamespaceHeader.H

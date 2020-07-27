@@ -1,0 +1,4 @@
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools2d.Darwin.64.clang++.gfortran.DEBUG.a(CH_Thread.o) d/2d.Darwin.64.clang++.gfortran.DEBUG/CH_Thread.d : CH_Thread.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools2d.Darwin.64.clang++.gfortran.DEBUG.a(CH_Thread.o) d/2d.Darwin.64.clang++.gfortran.DEBUG/CH_Thread.d : CH_Thread.cpp
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools2d.Darwin.64.clang++.gfortran.DEBUG.a(CH_Thread.o) d/2d.Darwin.64.clang++.gfortran.DEBUG/CH_Thread.d : NamespaceFooter.H
+/Users/sashacurcic/SashasDirectory/ANAG/Chombo/lib/src/BaseTools/../../libbasetools2d.Darwin.64.clang++.gfortran.DEBUG.a(CH_Thread.o) d/2d.Darwin.64.clang++.gfortran.DEBUG/CH_Thread.d : NamespaceHeader.H
